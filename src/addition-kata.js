@@ -1,13 +1,14 @@
 function add(string) {
 
   const separators = ['\n', ','];
+  const regexp = /^\/\/(\D+)\n/
 
   if (string.length == 0) {
     return 0;
   }
 
-  if (string.match(/^\/\/(\D+)\n/)) {
-    separators.push(string.match(/^\/\/(\D+)\n/)[1]);
+  if (string.match(regexp)) {
+    separators.push(string.match(regexp)[1]);
   }
 
   const numberList = string.split(new RegExp(`[${separators.join('')}]`))
