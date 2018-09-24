@@ -1,5 +1,5 @@
-###Practicing TDD with Jest.
+### Practicing TDD with Jest.
 
-##Katas:
+## Katas:
 
 - [addition-kata.js] (http://osherove.com/tdd-kata-1/)
