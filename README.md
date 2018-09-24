@@ -2,4 +2,4 @@
 
 ## Katas:
 
-- [addition-kata.js] (http://osherove.com/tdd-kata-1/)
+- [addition-kata.js](http://osherove.com/tdd-kata-1/)
